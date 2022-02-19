@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+div.showcase{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/blogging.svg");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+}
+div.showcase div.contents{
+    text-align: center;
+    width: 50%;
+    /* background-color: rgba(47, 79, 79, 0.411); */
+    padding: 1em;
+}
+div.showcase div.contents h1{
+    color:#B8405E;
+    margin-bottom: 10px;
+}
+div.showcase div.contents p{
+ color: rgba(0, 0, 0, 0.747);   
+ line-height: 1.5;
+ font-size: 18px;
+}
+.emoji{
+    width: 10%;
+    height: 10%;
+}
+.wow{
+    position: absolute;
+    left: 20px;
+    bottom: 40%;
+}
+.sticking-out{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+div.myprofile{
+    position: relative;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+h1.heading{
+    color: #B8405E;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 220%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ h1.heading::after{
+    content: "";
+    width: 150px;
+    height: 5px;
+    background-color: #B8405E;
+    margin-top: 10px;
+}
+div.myprofile img{
+    width: 25%;
+    border-radius: 50%;
+    /* border: 5px solid blueviolet; */
+    object-fit: contain;
+    margin: 10px 0px;
+}
+
+div.myprofile div.bio h1{
+    font-size: 120%;
+    color:burlywood
+}
+div.myprofile div.bio h3{
+    font-size: 80%;
+    color: rgba(222, 184, 135, 0.76);
+}
+div.myprofile div.bio p{
+    line-height: 1.5;
+    margin-top: 12px;
+}
+div.myskills{
+    position: relative;
+    padding: 1em;
+    width: 75%;
+    margin: 20px auto;
+}
+
+div.myskills div.heading h1{
+    color: #B8405E;
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 220%;
+}
+
+div.myskills img{
+    width: 20%;
+}
+div.myskills div.skill{
+    margin: 50px 0px;
+    clear: both;
+}
+
+div.myskills div.html img{
+    float: left;
+    margin-right: 20px;
+}
+div.myskills div.css img{
+    float: right;
+    margin-right: 20px;
+}
+div.myskills div.javascript img{
+    float: left;
+    margin-right: 20px;
+}
+div.myskills div.css div.contents h2{
+    text-align: right;
+}
+div.myskills div.skill div.contents h2{
+    margin-bottom: 10px;
+    color: #54BAB9;
+    text-transform: uppercase;
+}
+/* div.myskills div.html div.contents p{
+    clear: left;
+} */
+div.myskills div.skill div.contents p{
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+}
